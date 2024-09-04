@@ -41,6 +41,8 @@ Software related to embedded systems, either because it runs on an embedded plat
 | [UF2 bootloader for CH32V2xx](https://github.com/ArcaneNibble/wch-uf2) | Stable | an implementation of [UF2 (USB Flashing Format)](https://github.com/microsoft/uf2) for the CH32V2xx RISC-V MCUs |
 | embedded compiler toolchain stuff | Proof-of-concept | putting compilers [in your browser](https://github.com/ArcaneNibble/web-llvm-thing) and [building a toolchain distribution](https://github.com/ArcaneNibble/toolchain-garbage) |
 | [JEDEC programming file parser in Rust](https://github.com/ArcaneNibble/rust-jedec) | Stable | parser and writer for .jed files, commonly used with CPLDs |
+| [JTAG abstraction layer in Rust](https://github.com/ArcaneNibble/rust-jtag) | Very incomplete, shelved | attempting to build a good JTAG abstraction API |
+| [VHDL frontend](https://github.com/ArcaneNibble/yavhdl) | Very incomplete, shelved | attempting to build a VHDL frontend |
 
 # "Reverse-engineering-related" software
 
@@ -66,9 +68,12 @@ These are proofs-of-concept, throwaways, quick-and-dirty solutions, etc. all of 
 
 | Project | Interest in reviving? | Description |
 |-|-|-|
+| [Apple M1 AVD emulator](https://github.com/ArcaneNibble/m1-avd-reverse-engineering) | ❌ | Emulates the Cortex-M inside the Apple Silicon video decoder, as part of Asahi Linux work. Currently superseded by further work from others |
+| [Apple PCIe Bluetooth prototype driver](https://github.com/ArcaneNibble/m1-bluetooth-prototype) | ❌ | Proof-of-concept to drive Apple Bluetooth. A proper Linux driver is now upstream. Might be useful as a reference for doing VFIO in Python |
 | [f055.cc](https://github.com/ArcaneNibble/f055-tuples) | ✅ | I took over this domain a while back, but I haven't done a good job of marketing/promoting it. This is a registry of "16-bit numbers" that might be needed in some cases. |
 | [langtool](https://github.com/ArcaneNibble/langtool) | ❌ | Quick tool to look up Chinese words in CC-CEDICT and CC-Canto simultaneously in order to generate flashcards for Anki. This is probably only useful for ABCs (American-Born Chinese) heritage speakers with a *highly* specific background and upbringing. |
 | [pokeemeraldfont](https://github.com/ArcaneNibble/pokeemeraldfont) | ❌ | a demo abusing font ligatures and "emoji" fonts in order to turn the names of Pokemon into icons |
 | [BLE dog shock collar reverse engineering](https://github.com/ArcaneNibble/miniature-octo-disco) | ❌ | I, along with an anonymous friend, reverse engineered the Dr.Trainer BLE-controlled dog shock collars |
 | [Sega Saturn CD controller block](https://github.com/ArcaneNibble/laughing-waffle) | ❌ | I reproduced the published hack to dump the Sega Saturn CDB microcontroller |
 | [TPM2 LUKS](https://github.com/ArcaneNibble/tpm2-luks) | ✅ |very-old experiments with sealing LUKS keys to a TPM |
+| [propclone](https://github.com/ArcaneNibble/propclone) | ❌ | clone of the Parallax Propeller core, written when I was a teen |
