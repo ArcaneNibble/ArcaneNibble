@@ -44,60 +44,31 @@ Software related to embedded systems, either because it runs on an embedded plat
 
 # "Reverse-engineering-related" software
 
-## [xc2bit](https://github.com/ArcaneNibble/xc2bit)
+Software related to reverse engineering or derived through reverse engineering. Contributions accepted, but please follow reverse engineering best practices wrt intellectual property concerns.
 
-Reverse-engineered documentation of Xilinx/AMD CoolRunner-II CPLDs
-
-## [Project Nanjing](https://github.com/ArcaneNibble/project-nanjing)
-
-Reverse-engineering the WCH Bluetooth Low Energy IP in order to eliminate the binary blobs
-
-## [Project Chibi](https://github.com/ArcaneNibble/project-chibi)
-
-Reverse-engineered documentation of Altera/Intel MAX V/II CPLDs
-
-## [Project New Millennium](https://github.com/ArcaneNibble/project-new-millennium)
-
-Rough reverse-engineering notes of Altera/Intel MAX 7000 CPLDs
-
-## [AccuVote flash tools](https://github.com/ArcaneNibble/accuvote-flash-tools)
-
-Quick tool to dump and restore the flash memory of the AccuVote TSx voting machines used in some places in the United States
+| Project | Status | Description |
+|-|-|-|
+| [xc2bit](https://github.com/ArcaneNibble/xc2bit) | Rewrite in progress, all critical information exists in R's brain | reverse-engineered documentation for Xilinx/AMD CoolRunner-II CPLD bitstreams |
+| [Project Nanjing](https://github.com/ArcaneNibble/project-nanjing) | Looking for contributors | reverse-engineering the WCH Bluetooth Low Energy IP in order to eliminate the binary blobs |
+| [Project Chibi](https://github.com/ArcaneNibble/project-chibi) | Rewrite in progress, all critical information exists in R's brain | reverse-engineered documentation of Altera/Intel MAX V/II CPLD bitstreams |
+| [Project New Millennium](https://github.com/ArcaneNibble/project-new-millennium) | Shelved | rough reverse-engineering notes of Altera/Intel MAX 7000 CPLDs |
+| [AccuVote flash tools](https://github.com/ArcaneNibble/accuvote-flash-tools) | Shelved | quick tool to dump and restore the flash memory of the AccuVote TSx voting machines used in some places in the United States |
 
 # Fun and games
 
-## [Steam Deck gyro + flick stick controls for Minecraft](https://github.com/NEKOMods/mc-deck-native-controls)
-
-Implement [flick stick motion controls](http://gyrowiki.jibbsmart.com/blog:good-gyro-controls-part-2:the-flick-stick) as a Minecraft Forge mod
-
-This gets better performance/accuracy and more-powerful integration with the game engine compared to doing it externally using Steam Input
+| Project | Status | Description |
+|-|-|-|
+| [Steam Deck gyro + flick stick controls for Minecraft](https://github.com/NEKOMods/mc-deck-native-controls) | Works, but unmaintained | Implements [flick stick motion controls](http://gyrowiki.jibbsmart.com/blog:good-gyro-controls-part-2:the-flick-stick) as a Minecraft Forge mod. This gets better performance/accuracy and more-powerful integration with the game engine compared to doing it externally using Steam Input. |
 
 # Hacks
 
-## [f055.cc](https://github.com/ArcaneNibble/f055-tuples)
+These are proofs-of-concept, throwaways, quick-and-dirty solutions, etc. all of which are currently _very_ unmaintained.
 
-I took over this domain a while back, but I haven't done a good job of marketing/promoting it
-
-A registry of "16-bit numbers" that might be needed in some cases
-
-## [langtool](https://github.com/ArcaneNibble/langtool)
-
-Quick tool to look up Chinese words in CC-CEDICT and CC-Canto simultaneously in order to generate flashcards for Anki.
-
-This is probably only useful for ABCs (American-Born Chinese) heritage speakers with a *highly* specific background and upbringing.
-
-## [pokeemeraldfont](https://github.com/ArcaneNibble/pokeemeraldfont)
-
-A demo abusing font ligatures and "emoji" fonts in order to turn the names of Pokemon into icons
-
-## [BLE dog shock collar reverse engineering](https://github.com/ArcaneNibble/miniature-octo-disco)
-
-We along with an anonymous friend reverse engineered the Dr.Trainer BLE-controlled dog shock collars
-
-## [Sega Saturn CD controller block](https://github.com/ArcaneNibble/laughing-waffle)
-
-I reproduced the published hack to dump the Sega Saturn CDB microcontroller
-
-## [TPM2 LUKS](https://github.com/ArcaneNibble/tpm2-luks)
-
-Very-old experiments with sealing LUKS keys to a TPM
+| Project | Interest in reviving? | Description |
+|-|-|-|
+| [f055.cc](https://github.com/ArcaneNibble/f055-tuples) | ✅ | I took over this domain a while back, but I haven't done a good job of marketing/promoting it. This is a registry of "16-bit numbers" that might be needed in some cases. |
+| [langtool](https://github.com/ArcaneNibble/langtool) | ❌ | Quick tool to look up Chinese words in CC-CEDICT and CC-Canto simultaneously in order to generate flashcards for Anki. This is probably only useful for ABCs (American-Born Chinese) heritage speakers with a *highly* specific background and upbringing. |
+| [pokeemeraldfont](https://github.com/ArcaneNibble/pokeemeraldfont) | ❌ | a demo abusing font ligatures and "emoji" fonts in order to turn the names of Pokemon into icons |
+| [BLE dog shock collar reverse engineering](https://github.com/ArcaneNibble/miniature-octo-disco) | ❌ | I, along with an anonymous friend, reverse engineered the Dr.Trainer BLE-controlled dog shock collars |
+| [Sega Saturn CD controller block](https://github.com/ArcaneNibble/laughing-waffle) | ❌ | I reproduced the published hack to dump the Sega Saturn CDB microcontroller |
+| [TPM2 LUKS](https://github.com/ArcaneNibble/tpm2-luks) | ✅ |very-old experiments with sealing LUKS keys to a TPM |
