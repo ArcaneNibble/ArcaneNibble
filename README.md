@@ -24,17 +24,13 @@ I build PCBs, including all of these:
 
 # "Normal" software
 
-## [FastLZ in Rust](https://github.com/ArcaneNibble/fastlz-rs)
+Software for your computer, doing normal computer things. Contributions welcome!
 
-As it sounds. [FastLZ](https://github.com/ariya/FastLZ) reimplemented in pure-Rust
-
-## [uksirius](https://github.com/ArcaneNibble/uksirius)
-
-An effort to learn practical DSP by implementing a dial-up modem in pure software
-
-## [Tile Corruptor](https://github.com/ArcaneNibble/tile-coruptor)
-
-A tool for viewing binary data as images in various formats, which can be useful for reverse-engineering and taking shortcuts through the brain's visual system's pattern matching
+| Project | Status | Description |
+|-|-|-|
+| [FastLZ in Rust](https://github.com/ArcaneNibble/fastlz-rs) | Stable | [FastLZ](https://github.com/ariya/FastLZ) reimplemented in pure-Rust |
+| [uksirius](https://github.com/ArcaneNibble/uksirius) | Proof-of-concept | an effort to learn practical DSP by implementing a dial-up modem in pure software |
+| [Tile Corruptor](https://github.com/ArcaneNibble/tile-coruptor) | Initial release | a tool for viewing binary data as images in various formats, which can be useful for reverse-engineering and taking shortcuts using the brain's visual system's pattern matching |
 
 # "Embedded-related" software
 
