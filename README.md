@@ -34,19 +34,13 @@ Software for your computer, doing normal computer things. Contributions welcome!
 
 # "Embedded-related" software
 
-## [UF2 bootloader for CH32V2xx](https://github.com/ArcaneNibble/wch-uf2)
+Software related to embedded systems, either because it runs on an embedded platform or because it primarily deals with problems in the embedded space. Contributions welcome!
 
-An implementation of [UF2 (USB Flashing Format)](https://github.com/microsoft/uf2) for the CH32V2xx RISC-V MCUs
-
-## embedded compiler toolchain stuff
-
-Putting compilers [in your browser](https://github.com/ArcaneNibble/web-llvm-thing) and [building a toolchain distribution](https://github.com/ArcaneNibble/toolchain-garbage)
-
-WIP
-
-## [JEDEC programming file parser in Rust](https://github.com/ArcaneNibble/rust-jedec)
-
-Parser and writer for .jed files, commonly used with CPLDs
+| Project | Status | Description |
+|-|-|-|
+| [UF2 bootloader for CH32V2xx](https://github.com/ArcaneNibble/wch-uf2) | Stable | an implementation of [UF2 (USB Flashing Format)](https://github.com/microsoft/uf2) for the CH32V2xx RISC-V MCUs |
+| embedded compiler toolchain stuff | Proof-of-concept | putting compilers [in your browser](https://github.com/ArcaneNibble/web-llvm-thing) and [building a toolchain distribution](https://github.com/ArcaneNibble/toolchain-garbage) |
+| [JEDEC programming file parser in Rust](https://github.com/ArcaneNibble/rust-jedec) | Stable | parser and writer for .jed files, commonly used with CPLDs |
 
 # "Reverse-engineering-related" software
 
